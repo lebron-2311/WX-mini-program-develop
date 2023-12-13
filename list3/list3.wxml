@@ -1,0 +1,30 @@
+<!--常用的基础内容组件 text和rich-text的用法-->
+<view>
+ 手机号支持长按选中效果
+ <text>15504550707</text>
+ 手机号支持长按选中效果selectable
+ <text selectable>15504550707</text>
+ <rich-text nodes="<h1 style='color:red'>标题</h1>"> </rich-text>
+</view>
+
+<view>--------通过type指定按钮类型--------</view>
+
+<button>默认按钮</button>
+<button type="primary">主色调按钮</button>
+<button type="warn">警告按钮</button>
+
+<view>--------size="mini"小尺寸按钮--------</view>
+
+<button size="mini">默认按钮</button>
+<button type="primary" size="mini">主色调按钮</button>
+<button type="warn" size="mini">警告按钮</button>
+
+
+<view>--------plain镂空按钮--------</view>
+
+<button size="mini" plain>默认按钮</button>
+<button type="primary" size="mini" plain>主色调按钮</button>
+<button type="warn" size="mini" plain>警告按钮</button>
+
+<!--image 图片组件-->
+<image src="/image/1.png" mode="widthFix"></image>

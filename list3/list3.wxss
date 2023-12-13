@@ -1,0 +1,4 @@
+/* pages/list3/list3.wxss */
+image{
+  border: 1px solid red;
+}
