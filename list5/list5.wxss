@@ -1,0 +1,24 @@
+/* pages/list5/list5.wxss */
+.hello-world-container {
+  margin-top: 20px; /* 调整上下边距 */
+}
+
+/* styles.wxss */
+
+.outer-view {
+  background-color: blue;
+  padding: 15px;
+}
+
+.button {
+  background-color: #ff0000;
+  color:green;
+  padding: 5px 10px;
+}
+
+input{
+  border: 1px solid lightcoral;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}

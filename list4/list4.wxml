@@ -1,0 +1,13 @@
+<!--常用的基础内容组件 text和rich-text的用法-->
+<view class="hello-world-container">
+  {{info}}
+</view>
+<!--image 图片组件-->
+<image src="/image/2.jpg" mode="widthFix"></image>
+<text>\n</text>
+<text class="centered-text">刘宇轩</text>
+
+<button>刘宇轩吃饭</button>
+<button type="primary">刘宇轩打篮球</button>
+<button type="warn">刘宇轩回学校</button>
+

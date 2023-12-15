@@ -1,0 +1,33 @@
+<!--pages/list5/list5.wxml-->
+<view class="hello-world-container">
+  {{info}}
+</view>
+<view class="outer-view" bindtap="outerHandler">
+  <button type="primary">按钮</button>
+</view>
+<text>\n</text>
+<button type="primary" bind:tap="btnTapHandler">姚长坤</button>
+
+<!--事件绑定-->
+<button type="primary" bind:tap="btnTapHandler">刘宇轩</button>
+<button type="primary" bind:tap="CountChange">李煜圣</button>
+<button type="primary" bind:tap="btnTap2" data-info="{{3}}">+2</button>
+<input bindinput="inputHandler"></input>
+<input value="{{msg}}" bindinput="inputHandler"></input>
+
+<view wx:if="{{type==1}}">男</view>
+<view wx:elif="{{type==2}}">女</view>
+<view wx:else>保密</view>
+
+<block wx:if="{{true}}">
+   <view>刘泓昭</view>
+   <view>李铁钊</view>
+</block >
+
+
+<view hidden="{{!flag}}">条件为true时隐藏元素，否则显示</view>
+<view wx:if="{{flag}}">这是使用wx:if控制的元素</view>
+
+<view wx:for="{{arr1}}">
+ 他们是:{{index}},同学是:{{item}}
+</view>
